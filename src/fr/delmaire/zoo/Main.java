@@ -5,6 +5,7 @@ import fr.delmaire.zoo.animal.animalNageant.Tortue;
 import fr.delmaire.zoo.animal.animalSautant.Chat;
 import fr.delmaire.zoo.animal.animalSautant.Cheval;
 import fr.delmaire.zoo.animal.animalSautant.Chien;
+import fr.delmaire.zoo.animal.animalVolant.Aigle;
 
 public class Main {
 	public static void main(String[] args) {
@@ -30,6 +31,8 @@ public class Main {
 		Tortue george = new Tortue("George", "tortue de mer", 35, 98, "vert", false);
 		george.nager();
 		george.manger();
+
+		Aigle grandAigle = new Aigle("Grand Aigle", "aigle", 48, 12, "blanc", false);
 
 	}
 

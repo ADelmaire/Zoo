@@ -8,11 +8,12 @@ public class animalVolant extends AnimalQuipeutSauter {
 
 	public animalVolant() {
 		super();
+		// TODO Auto-generated constructor stub
 	}
 
-	public animalVolant(int longueurAiles) {
-		super();
-		this.longueurAiles = longueurAiles;
+	public animalVolant(String nom, String race, int poids, int age, String couleur, boolean griffes) {
+		super(nom, race, poids, age, couleur, griffes);
+		// TODO Auto-generated constructor stub
 	}
 
 	public void voler() {
